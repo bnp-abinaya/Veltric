@@ -32,7 +32,10 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
-
+a{
+    text-decoration: none;
+    color: var(--color-secondary);
+}
 .bg-text-football {
     font-size: var(--bg-font-size-football);
 
@@ -330,6 +333,6 @@ body {
     }
 
     .footer-bottom {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
